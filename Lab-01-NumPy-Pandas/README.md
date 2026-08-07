@@ -17,9 +17,10 @@ This lab covers the basic concepts of NumPy and Pandas in Python.
 - Correlation matrix
 
 ## Files
-- `AP24110010666_lab1.ipynb` - Google Colab notebook
-- `Iris.csv` - Iris dataset
-- `mtcars.csv` - mtcars dataset
+
+- `Lab01_NumPy_Pandas.pdf` - Google Colab notebook exported as PDF
+- `Iris.csv` - Iris flower dataset
+- `mtcars.csv` - Motor Trend Cars dataset
 
 ## Technologies Used
 
