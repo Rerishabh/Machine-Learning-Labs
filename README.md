@@ -14,6 +14,6 @@ This repository contains my Machine Learning laboratory assignments completed du
 
 ## Lab List
 
-- Lab 01 - NumPy and Pandas Basics
+- [Lab 01 - NumPy and Pandas Basics](Lab-01-NumPy-Pandas/)
 - Lab 02 - Coming Soon
 - Lab 03 - Coming Soon
