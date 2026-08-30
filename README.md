@@ -16,4 +16,4 @@ This repository contains my Machine Learning laboratory assignments completed du
 
 - [Lab 01 - NumPy and Pandas Basics](Lab-01-NumPy-Pandas/)
 - [Lab 02 - Feature Engineering](Lab-02-Feature-Engineering/)
-- Lab 03 - Coming Soon
+- [Lab 03 - Linear Regression](Lab-03-Linear-Regression/)
