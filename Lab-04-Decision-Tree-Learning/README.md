@@ -1,21 +1,8 @@
 # Lab 04 - Decision Tree Learning
 
-## Aim
+This lab covers the implementation and understanding of Decision Tree Classification using Python and Scikit-learn.
 
-To implement Decision Tree classification using Python and Scikit-learn on the given datasets.
-
-## Datasets
-
-This lab uses two datasets:
-
-1. **Weather Dataset**
-   - Used to predict whether to play based on weather conditions.
-   - Features include outlook, temperature, humidity, and windy.
-
-2. **Calorie Efficiency Dataset**
-   - Used to classify calorie efficiency based on fitness-related attributes.
-
-## Concepts Covered
+## Topics Covered
 
 - Decision Tree Classification
 - Data Loading using Pandas
@@ -30,6 +17,13 @@ This lab uses two datasets:
 - Confusion Matrix
 - Decision Tree Visualization
 
+## Files
+
+- `Lab_04_Decision_Tree_Learning.ipynb` - Google Colab/Jupyter Notebook containing the Decision Tree implementation
+- `Lab-04-Decision-Tree-Learning - Colab.pdf` - PDF version of the completed lab
+- `weather.csv` - Weather dataset used for Decision Tree classification
+- `calorie_efficiency_dataset.csv.gz` - Compressed calorie efficiency dataset
+
 ## Technologies Used
 
 - Python
@@ -38,13 +32,6 @@ This lab uses two datasets:
 - Scikit-learn
 - Matplotlib
 - Google Colab
-
-## Files
-
-- `Lab04_Decision_Tree_Learning.ipynb` - Google Colab/Jupyter Notebook containing the implementation.
-- `Lab04_Decision_Tree_Learning.pdf` - PDF version of the lab.
-- `weather.csv` - Weather dataset.
-- `calorie_efficiency_dataset.csv` - Calorie efficiency dataset.
 
 ## Result
 
