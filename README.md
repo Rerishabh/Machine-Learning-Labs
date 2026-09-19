@@ -11,6 +11,7 @@ This repository contains my Machine Learning laboratory assignments completed du
 - Pandas
 - Scikit-learn
 - Google Colab
+- Jupyter Notebook
 
 ## Lab List
 
@@ -18,3 +19,4 @@ This repository contains my Machine Learning laboratory assignments completed du
 - [Lab 02 - Feature Engineering](./Lab-02-Feature-Engineering)
 - [Lab 03 - Linear Regression](./Lab-03-Linear-Regression)
 - [Lab 04 - Decision Tree Learning](./Lab-04-Decision-Tree-Learning)
+- [Lab 05 - K-Nearest Neighbors](./Lab-05-K-Nearest-Neighbors)
