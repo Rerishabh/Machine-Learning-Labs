@@ -15,8 +15,11 @@ This repository contains my Machine Learning laboratory assignments completed du
 
 ## Lab List
 
-- [Lab 01 - NumPy and Pandas Basics](./Lab-01-NumPy-Pandas)
-- [Lab 02 - Feature Engineering](./Lab-02-Feature-Engineering)
-- [Lab 03 - Linear Regression](./Lab-03-Linear-Regression)
-- [Lab 04 - Decision Tree Learning](./Lab-04-Decision-Tree-Learning)
-- [Lab 05 - K-Nearest Neighbors](./Lab-05-K-Nearest-Neighbors)
+## Lab List
+
+- [Lab 01 - NumPy and Pandas Basics](./Lab-01-NumPy-Pandas/)
+- [Lab 02 - Feature Engineering](./Lab-02-Feature-Engineering/)
+- [Lab 03 - Linear Regression](./Lab-03-Linear-Regression/)
+- [Lab 04 - Decision Tree Learning](./Lab-04-Decision-Tree-Learning/)
+- [Lab 05 - K-Nearest Neighbors](./Lab-05-K-Nearest-Neighbors/)
+- [Lab 06 - Linear Regression](./Lab-06-Linear-Regression/)
