@@ -17,17 +17,18 @@ This repository contains my Machine Learning laboratory assignments completed du
 
 ## Lab List
 
-| Lab No. | Experiment | Folder |
-|:---:|---|---|
-| Lab 01 | NumPy and Pandas Basics | [Lab-01-NumPy-Pandas](Lab-01-NumPy-Pandas) |
-| Lab 02 | Feature Engineering | [Lab-02-Feature-Engineering](Lab-02-Feature-Engineering) |
-| Lab 03 | Linear Regression | [Lab-03-Linear-Regression](Lab-03-Linear-Regression) |
-| Lab 04 | Decision Tree Learning | [Lab-04-Decision-Tree-Learning](Lab-04-Decision-Tree-Learning) |
-| Lab 05 | K-Nearest Neighbors (KNN) | [Lab-05-K-Nearest-Neighbors](Lab-05-K-Nearest-Neighbors) |
-| Lab 06 | Linear Regression | [Lab-06-Linear-Regression](Lab-06-Linear-Regression) |
-| Lab 07 | Statistical Analysis of Housing Dataset | [Lab-07-Statistical-Analysis](Lab-07-Statistical-Analysis) |
-| Lab 08 | Principal Component Analysis (PCA) | [Lab-08-Principal-Component-Analysis](Lab-08-Principal-Component-Analysis) |
-| Lab 09 | Naive Bayes Classification | [Lab-09-Naive-Bayes-Classification](Lab-09-Naive-Bayes-Classification) |
+| **Lab No.** | **Experiment** | **Folder** |
+|---|---|---|
+| Lab 01 | NumPy and Pandas Basics | [Lab-01-NumPy-Pandas](https://github.com/Rerishabh/Machine-Learning-Labs/tree/main/Lab-01-NumPy-Pandas) |
+| Lab 02 | Feature Engineering | [Lab-02-Feature-Engineering](https://github.com/Rerishabh/Machine-Learning-Labs/tree/main/Lab-02-Feature-Engineering) |
+| Lab 03 | Linear Regression | [Lab-03-Linear-Regression](https://github.com/Rerishabh/Machine-Learning-Labs/tree/main/Lab-03-Linear-Regression) |
+| Lab 04 | Decision Tree Learning | [Lab-04-Decision-Tree-Learning](https://github.com/Rerishabh/Machine-Learning-Labs/tree/main/Lab-04-Decision-Tree-Learning) |
+| Lab 05 | K-Nearest Neighbors (KNN) | [Lab-05-K-Nearest-Neighbors](https://github.com/Rerishabh/Machine-Learning-Labs/tree/main/Lab-05-K-Nearest-Neighbors) |
+| Lab 06 | Linear Regression | [Lab-06-Linear-Regression](https://github.com/Rerishabh/Machine-Learning-Labs/tree/main/Lab-06-Linear-Regression) |
+| Lab 07 | Statistical Analysis of Housing Dataset | [Lab-07-Statistical-Analysis](https://github.com/Rerishabh/Machine-Learning-Labs/tree/main/Lab-07-Statistical-Analysis) |
+| Lab 08 | Principal Component Analysis (PCA) | [Lab-08-Principal-Component-Analysis](https://github.com/Rerishabh/Machine-Learning-Labs/tree/main/Lab-08-Principal-Component-Analysis) |
+| Lab 09 | Naive Bayes Classification | [Lab-09-Naive-Bayes-Classification](https://github.com/Rerishabh/Machine-Learning-Labs/tree/main/Lab-09-Naive-Bayes-Classification) |
+| Lab 10 | Support Vector Machine (SVM) | [Lab-10-Support-Vector-Machine](https://github.com/Rerishabh/Machine-Learning-Labs/tree/main/Lab-10-Support-Vector-Machine) |
 
 ## Repository Contents
 
@@ -40,12 +41,14 @@ Each lab folder contains the relevant Jupyter Notebook, dataset files, and READM
 **Dataset:** `Housing.csv`
 
 **Results:**
+
 - Original dataset: 545 rows and 13 columns.
 - Principal components retained: 11.
 - Total variance preserved: 92.64%.
 - Variance-retention requirement of at least 90% successfully achieved.
 
 **Files:**
+
 - `Lab_08_Principal_Component_Analysis.ipynb`: PCA implementation and outputs.
 - `Lab-08-Principal-Component-Analysis - Colab.pdf`: PDF export of the notebook.
 - `Housing.csv`: Original dataset.
@@ -59,11 +62,13 @@ Each lab folder contains the relevant Jupyter Notebook, dataset files, and READM
 **Dataset:** Iris Dataset (Scikit-learn)
 
 **Dataset Information:**
+
 - Total samples: 150.
 - Number of features: 4.
 - Target classes: Setosa, Versicolor, and Virginica.
 
 **Implementation:**
+
 - Load the Iris dataset using Scikit-learn.
 - Split the dataset into training and testing sets.
 - Train a Gaussian Naive Bayes classifier.
@@ -74,8 +79,59 @@ Each lab folder contains the relevant Jupyter Notebook, dataset files, and READM
 - Compare results using different training and testing configurations, including `stratify=y` and `stratify=None`.
 
 **Files:**
+
 - `Lab_09_Naive_Bayes_Classification.ipynb`: Naive Bayes implementation and outputs.
 - `Lab-09-Naive-Bayes-Classification - Colab.pdf`: PDF export of the notebook.
+- `README.md`: Lab-specific documentation.
+
+### Lab 10: Support Vector Machine (SVM)
+
+**Objective:** Implement Support Vector Machine classification using different kernels and tune hyperparameters to identify the best-performing model.
+
+**Datasets:**
+
+- Iris Dataset (basic Polynomial SVM implementation).
+- Breast Cancer Wisconsin Dataset (modified SVM experiments).
+
+**Dataset Information:**
+
+- Total samples: 569.
+- Number of features: 30.
+- Target classes: Malignant and Benign.
+
+**Implementation:**
+
+- Implemented the basic Polynomial SVM classifier.
+- Tested Linear and RBF kernels.
+- Evaluated different C values: `0.01`, `1`, `10`, and `100`.
+- Evaluated different Gamma values: `0.01`, `1`, `10`, and `100`.
+- Used nested `for` loops to test all 16 C and Gamma combinations for each kernel.
+- Applied feature scaling using `StandardScaler`.
+- Selected the best-performing model based on classification accuracy.
+- Evaluated the selected model using a confusion matrix and classification report.
+
+**Best Results:**
+
+| Parameter | Value |
+|---|---|
+| Best Kernel | Linear |
+| C | 1 |
+| Gamma | 0.01 |
+| Accuracy | 98.25% |
+
+The RBF kernel also achieved 98.25% accuracy with C = 10 and Gamma = 0.01.
+
+**Confusion Matrix:**
+
+```text
+[[62  2]
+ [ 1 106]]
+```
+
+**Files:**
+
+- `Lab_10_Support_Vector_Machine.ipynb`: SVM implementation and experimental results.
+- `Lab-10-Support-Vector-Machine - Colab.pdf`: PDF export of the notebook and experiment.
 - `README.md`: Lab-specific documentation.
 
 ## Tools
@@ -83,7 +139,5 @@ Each lab folder contains the relevant Jupyter Notebook, dataset files, and READM
 - Python
 - Google Colab
 - Git and GitHub
-
-
 
 GitHub: [Rerishabh](https://github.com/Rerishabh)
